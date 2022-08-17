@@ -23,37 +23,34 @@ body {
   justify-content: center;
 }
 
-.first-received {
+.first-received,
+.all-successful {
   position: fixed;
-  left: 50px;
-  text-align: center;
-  padding: 15px;
-  width: 35%;
-  height: relative;
-  overflow-y: scroll;
+  overflow-y: auto;
   scroll-behavior: smooth;
-  background-color: rgba(157, 199, 219, 0.6);
+
+  width: 35%;
+  height: min-content;
+  padding: 15px;
+
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
   border-radius: 15px;
 }
 
+.first-received {
+  left: 50px;
+  background-color: rgba(157, 199, 219, 0.6);
+}
+
 .all-successful {
-  position: fixed;
-  margin-top: 5px;
-  text-align: center;
   left: 60%;
-  padding: 5px, 5px, 5px, 5px;
-  height: 90%;
-  width: 35%;
-  overflow-y: scroll;
-  scroll-behavior: smooth;
   background-color: rgba(190, 219, 157, 0.6);
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  border-radius: 15px;
 }
 
 ul {
   list-style: none;
+  padding-inline-start: 0;
 }
 
 .li-header {

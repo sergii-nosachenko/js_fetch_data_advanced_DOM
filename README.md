@@ -1,5 +1,5 @@
 1. Replace `<your_account>` with your Github username in the link
-    - [DEMO LINK](https://<your_account>.github.io/js_fetch_data_advanced_DOM/)
+    - [DEMO LINK](https://sergii-nosachenko.github.io/js_fetch_data_advanced_DOM/)
 2. Follow [this instructions](https://mate-academy.github.io/layout_task-guideline/)
     - Run `npm run test` command to test your code;
     - Run `npm run test:only -- -n` to run fast test ignoring linter;
@@ -18,8 +18,8 @@ Create next functions:
 
 (optional) `getThreeFastestDetails` which takes array of phones IDs and `resolves` with an array of the details for the first 3 responses (the fastest).
 
-Hints: 
-- You have to use DOM to notify users about resolved or rejected promises; 
+Hints:
+- You have to use DOM to notify users about resolved or rejected promises;
 - Create <div> elements with classes `first-received` and `all-successful` which contain list of phones;
 - Each <div> element should have <h3> headings with `First Received` or `All Successful` text;
 - All IDs and names of phones should be inside of  <li> elements.
